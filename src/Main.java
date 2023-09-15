@@ -2,7 +2,7 @@ public class Main {
 
     public static void main(String[] args) {
         System.out.println(add(3,8));
-        System.out.println(addTwo(3, 8, 4, 9));
+        System.out.println(add(3, 8, 4, 9));
         System.out.println(morningGreeting("Toby Fox"));
         System.out.println(afternoonGreeting("Mac Miller"));
         System.out.println(triple("oohbaby"));
@@ -17,7 +17,7 @@ public class Main {
         }
 
         // 2. add
-        public static int addTwo(int a, int b, int c, int d){
+        public static int add(int a, int b, int c, int d){
             return a + b + c + d;
         }
 
