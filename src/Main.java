@@ -7,8 +7,8 @@ public class Main {
         System.out.println(afternoonGreeting("Mac Miller"));
         System.out.println(triple("oohbaby"));
         System.out.println(half(17));
-        System.out.println(roundPositiveValueToNearestInteger(8.5));
-        System.out.println(roundNegativeValueToNearestInteger(-8.49));
+        System.out.println(roundPositiveValueToNearestInteger(8.49));
+        System.out.println(roundNegativeValueToNearestInteger(-8.));
 
     }
         // 1. add
@@ -45,6 +45,8 @@ public class Main {
         }
         // 8. roundNegativeValueToNearestInteger
         public static int roundNegativeValueToNearestInteger(double myDouble){
-            return (int) Math.round(myDouble);
+            int myInt = (int) Math.round(-myDouble);
+            return -myInt;
+
         }
 }
